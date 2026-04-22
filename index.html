@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Snake Game 🐍</h1>
+
+<div class="controls">
+  <label>Difficulty:</label>
+  <select id="difficulty">
+    <option value="150">Easy</option>
+    <option value="120" selected>Medium</option>
+    <option value="90">Hard</option>
+  </select>
+
+  <button onclick="startGame()">Start Game</button>
+</div>
+
+<p id="info">Level: 1 | Score: 0</p>
+
+<canvas id="gameCanvas" width="600" height="600"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
